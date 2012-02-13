@@ -1,3 +1,5 @@
+this is a fork of https://github.com/irregular-at/play-qunit
+
 h1. Play! QUnit Module
 
 The Play! QUnit module provides integration of QUnit Javascript unit tests with the "Play! Framework":http://www.playframework.org.
