@@ -48,3 +48,4 @@ eclipse
 #project specific
 sonar-project.properties
 pom.xml
+qunit/dist/
