@@ -1,6 +1,50 @@
+# Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
+# and templates from Michael Schleichardt
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+db
+eclipse
+log
+logs
+precompiled
+tmp
+test-result
+eclipse
+server.pid
+
+#Play existing modules
+modules
+modules/*
+cobertura.ser
+
+#kde
+.directory
+
+# IDEs and editors
+*~
+.idea
+nbproject
+eclipse
+.amateras
+.settings
 .classpath
 .project
-commands.pyc
-bin/
-dist/
-lib/play-qunit.jar
+*.iml
+*.ipr
+*.iws
+
+#JVM
+*.class
+*.jar
+*.war
+
+#Python
+*.pyc
+
+#project specific
+sonar-project.properties
+pom.xml
