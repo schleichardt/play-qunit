@@ -1,4 +1,4 @@
-self: play -> qunit 1.0
+self: play -> qunit 1.1
 
 require:
     - play
