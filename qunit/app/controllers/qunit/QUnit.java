@@ -9,10 +9,10 @@ import java.util.LinkedList;
 import models.qunit.TestResult;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.Before;
 
 import play.Play;
 import play.modules.qunit.QUnitPlugin;
+import play.mvc.Before;
 import play.mvc.Controller;
 import play.mvc.results.RenderTemplate;
 import play.templates.Template;

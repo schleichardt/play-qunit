@@ -2,11 +2,11 @@
 
 require:
     - play
-    - play -> qunit
+    - local -> qunit 1.1
 
 repositories:
   - LocalModules:
         type:       local
         artifact:   ${application.path}/../[module]
         contains:
-                    - qunit
+                   - local -> *

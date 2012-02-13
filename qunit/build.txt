@@ -1,0 +1,2 @@
+#uses ant to generate an jar in the lib folder like original plugin or cibertura
+ant -Dplay.path=/home/michael/bin/play/play-1.x-latest build
